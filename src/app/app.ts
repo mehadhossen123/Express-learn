@@ -4,15 +4,17 @@ import express, {
   type Response,
 } from "express";
 
-import { pool } from "../db";
+
 import { userRouter } from "../modules/users/user.route";
 import { profileRouter } from "../modules/profiles/profile.route";
+import { authRouter } from "../modules/auth/auth.router";
 const app: Application = express();
 
 // middleware
 app.use(express.json());
 app.use("/api/users",userRouter)
 app.use("/api/profiles",profileRouter)
+app.use("/api/auth",authRouter)
 
 // connect postgresql with this server ;
 
