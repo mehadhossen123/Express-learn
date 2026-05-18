@@ -1,6 +1,7 @@
 import { pool } from "../../db"
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken"
+import config from "../../config";
 
 const postLoginIntoDb=async(payload:{
     email:string,
@@ -31,7 +32,7 @@ const jwtPayload={
     is_active:user?.is_active
 
 }
-const jwtToken=await jwt.sign(jwtPayload,"eewfjfdfodp",{expiresIn:"1d"})
+const jwtToken=await jwt.sign(jwtPayload,config.secret as string,{expiresIn:"1d"})
 return {jwtToken}
 
 }
