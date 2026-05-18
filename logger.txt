@@ -88,3 +88,35 @@ Method->GET - Tome->1779124294381 - URL->/api/users
 Method->GET - Tome->1779124685625 - URL->/api/users
 
 Method->GET - Tome->1779124828470 - URL->/api/users
+
+Method->POST - Tome->1779126393184 - URL->/api/users
+
+Method->POST - Tome->1779127426455 - URL->/api/users
+
+Method->POST - Tome->1779128337180 - URL->/api/users
+
+Method->POST - Tome->1779128349324 - URL->/api/users
+
+Method->POST - Tome->1779128431581 - URL->/api/auth/login
+
+Method->POST - Tome->1779128470653 - URL->/api/users
+
+Method->GET - Tome->1779128512193 - URL->/api/users
+
+Method->GET - Tome->1779128726540 - URL->/api/users
+
+Method->POST - Tome->1779128966280 - URL->/api/auth/login
+
+Method->GET - Tome->1779128996326 - URL->/api/users
+
+Method->GET - Tome->1779129036109 - URL->/api/users
+
+Method->GET - Tome->1779129073414 - URL->/api/users
+
+Method->GET - Tome->1779129157511 - URL->/api/users
+
+Method->GET - Tome->1779129189062 - URL->/api/users
+
+Method->GET - Tome->1779129645986 - URL->/api/users
+
+Method->GET - Tome->1779129762751 - URL->/api/users
